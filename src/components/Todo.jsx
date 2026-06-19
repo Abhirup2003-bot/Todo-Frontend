@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 const Todo = () => {
-  const BASE_URL = "http://localhost:8000/api/v1/todo";
+  const BASE_URL = "https://todo-backend-0wcd.onrender.com/api/v1/todo";
   const [todo, setTodo] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [editTodoId, setEditTodoId] = useState(null);
